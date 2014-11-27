@@ -44,6 +44,9 @@ configuration file; otherwise the default file config.xml will be
 used. See the default file for a list of all available configuration
 parameters.
 
+# Logging
+
+The mapper will create a log file in the directory where it is invoked. Alternatively, you can specify a directory in which this file will be created by defining the MLOGDIR bash environment variable.
 
 # Implementation Details
 
